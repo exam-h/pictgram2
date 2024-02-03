@@ -35,6 +35,8 @@ public class TopicForm {
 
 	private List<FavoriteForm> favorites;
 
+	private List<CommentForm> comments;
+	
 	private FavoriteForm favorite;
 
 }
