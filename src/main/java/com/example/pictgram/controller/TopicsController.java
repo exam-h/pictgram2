@@ -65,6 +65,7 @@ import com.example.pictgram.service.SendMailService;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
+
 @Controller
 public class TopicsController {
 
@@ -154,6 +155,8 @@ public class TopicsController {
 		}
 		model.addAttribute("list", list);
 
+		model.addAttribute("hasFooter", true);
+		
 		return "topics/index";
 	}
 
